@@ -183,10 +183,10 @@ button{
 
 .border-wrapper{
     border: 1px solid #2f2e2e;
-    padding: 30px;
+    padding: 20px;
     position: relative ;
     bottom: 185px;
-    margin:10px;
+    margin:20px;
 }
 .border-wrapper > p {
   margin-top: 10px;
@@ -195,51 +195,36 @@ button{
 .border-wrapper > button{
     width:120px;
     margin: 15px 0px;
-    
-}
+}   
+
 .image-wrapper{
-    padding: 10px;
    display: flex;
-   margin-left: -20px;
    
+   margin-left: -10px;
+   overflow: hidden; 
    
+}
+.image-text h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 550;
 }
 .image-wrap, .top-image:hover{
- margin: 10px;
- padding:10px ;
+ margin: 10px 5px 5px 5px;
+ padding:5px ;
  z-index: 2;
  transform: scale(1.1); 
   
 }
-.instructor{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.instruct > p{
-    font-size: 24px;
-    width: 60%;
-    justify-content: center;
-    margin: auto;
-    padding: 10px 0px;
-}
-.instruct button{
-    width: 230px;
-    height: 50px;
-    background-color: #000000;
-    margin: 10px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 18px;
-}
+
 .bestseller{
- text-transform: lowercase; 
  background-color: #eceb98;;
- padding: 5px;
+ padding: 6px;
  margin: 5px 0px;
- width: 30%;
+ width: 28%;
  height: 25px;
+ font-size: 13px;
 }
  .top-images{
   display: flex;
@@ -247,10 +232,14 @@ button{
   flex-wrap: wrap;
   margin:20px;
  }
+ .top-categories{
+    margin: 80px 0px;
+ }
  #category-h1{
-    font-size: 28px;
+    font-size: 24px;
     margin-left: 25px;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
+    margin-top: 10px;
    
  }
  .teams{
@@ -284,6 +273,131 @@ button{
     align-items: center;
 }
 .student-border{
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: -140px;
+}
+#student{
+    margin: 8px 0px;
+    font-size: 26px;
+}
+.instructor{
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.instructor-image{
+    margin-left: 160px;
+}
+.instruct{
+    margin-left: 40px;
+  margin-top: 20px;
+    text-align: left;
+}
+.instruct h1{
+    font-size:36px;
+    margin-bottom: 15px;
+   }
+.instruct > p{
+    font-size: 20px;
+    width: 50%;
+    justify-content: left;
+    padding: 10px 0px;
+  
+}
+.instructor button{
+    width: 230px;
+    height: 50px;
+    background-color: #000000;
+    margin: 10px 0px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.instructor-girl{
+    margin-right:280px;
+}
+.udemy-svg{
+    margin-bottom: -55px;
+}
+#girl{
+    margin-left: 200px;
+    width: 2000px;
+
+}
+#girl > p{
+    width: 100%;
+}
+.teams{
+    background-color: #f7f9fa;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.team-image{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.teams p{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+#education{
+    width: 30%;
+}
+#education > p{
+    width: 100%;
+}
+#education > button{
+    width: 35%;
+}
+.footer{
+    background-color: #1c1d1f;
+    margin-bottom: 0px;
+}
+.footer-list a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+
+.footer-list{
+    display: flex;
+    margin: 5px 20px;
+    list-style: none;
+}
+.foot-list{
+    list-style: none;
+    padding: 50px 80px;
+}
+.foot-list > li{
+    margin-bottom: 10px;
+   }
+.globe{
+    background-color:#1c1d1f; ;
+    color: #ffffff;
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin:-80px 90px ;
+    font-size: 16px;
+}
+.globe-button{
+    background-color: #1c1d1f;
+    border: #1c1d1f;
+}
+.footer-image, .footer-image > img{
+    display: flex;
+    margin: 5px 50px;
+    justify-content: space-between;
+    color:  #3e4143;
+    align-items: center;
 }
