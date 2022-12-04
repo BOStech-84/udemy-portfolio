@@ -30,7 +30,7 @@ a {
 .nav-section{
     box-shadow:  0px 3px 6px rgba(19, 19, 19, 0.4);
 }
-  .nav-section, ul{
+  .nav-section, .udemy-list{
     justify-content: space-around;
     display: flex;
     flex-direction: row;
@@ -44,29 +44,67 @@ a {
  width: 100px;  
  margin: 10px; 
 }
+.lis{
+    display: flex;
+    margin-left:-60px;
+    margin-right: 5px;
+    list-style: none;
+}
 .list{
     padding: auto;
     margin: 10px;
+    
     position: relative;
     bottom: -15px;
     font-size: 15px;
+}
+.fa-star{
+ font-size: 10px;
+ position: relative;
+ bottom: 2px;
+ left: 5px;
+ color: gold;
+}
+.fa-search{
+position: relative;
+padding: 26px;
+right: 480px;
+color:#726c6c;
+}
+.fa-shopping-cart{
+    padding: 25px 0px;
+    margin-right: 5px ;
+}
+.fa-globe{
+  background-color: white;
+  border: 1px solid #000000 ;
+  margin:auto ;
+  height: 40px;
+  padding: 10px;
 }
 button{
     width:70px;
     height: 40px;
     border: 1px solid #000000;
-    margin: auto;
     padding: auto;
+    margin: auto;
     font-weight: bold;
-   justify-content: center;   
+   position:relative;
+   right: 0px;
+   left: 5px; 
+
 }
 #sign-up{
     background-color: #000000;
     color: #ffffff;
+    right: 20px;
+}
+.border{
+    border: 1px solid black;
 }
 #search-bar{
  background-color:rgb(222, 221, 221) ;
- width: 90vh;
+ width: 70vh;
  justify-content: center;
  height:50px;
  border: 1px solid #000000;
@@ -74,7 +112,7 @@ button{
  margin: 10px;
  text-align: left;
  padding-top: 15px;
- padding-left: 30px;
+ padding-left: 40px;
 }
 
  #hero-text{
@@ -104,18 +142,148 @@ button{
    display: inline-block;
    line-height: 2.5rem; 
 }
-#tech-list{
+.tech-list{
  position: relative;  
  top: -150px;
  text-align: left;
  
 }
-#tech-list > h1{
+.tech-list > h1{
     font-size: 40px;
     margin-left: 20px;
+   
+    
 }
-#tech-list > p{
+.tech-list > p{
     font-size: 22px;
     padding: 10px;
-    margin-left:10px ;
+    margin-left: 10px ;
+}
+.tech-list > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    margin: 10px 0px;
+   padding: 20px;
+
+}
+
+.tech-list li{
+    color: rgb(93, 104, 104);
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+}
+#python-black{
+    color: black;
+}
+    
+
+.border-wrapper{
+    border: 1px solid #2f2e2e;
+    padding: 30px;
+    position: relative ;
+    bottom: 185px;
+    margin:10px;
+}
+.border-wrapper > p {
+  margin-top: 10px;
+  width: 50%;
+}
+.border-wrapper > button{
+    width:120px;
+    margin: 15px 0px;
+    
+}
+.image-wrapper{
+    padding: 10px;
+   display: flex;
+   margin-left: -20px;
+   
+   
+}
+.image-wrap, .top-image:hover{
+ margin: 10px;
+ padding:10px ;
+ z-index: 2;
+ transform: scale(1.1); 
+  
+}
+.instructor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.instruct > p{
+    font-size: 24px;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 0px;
+}
+.instruct button{
+    width: 230px;
+    height: 50px;
+    background-color: #000000;
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.bestseller{
+ text-transform: lowercase; 
+ background-color: #eceb98;;
+ padding: 5px;
+ margin: 5px 0px;
+ width: 30%;
+ height: 25px;
+}
+ .top-images{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin:20px;
+ }
+ #category-h1{
+    font-size: 28px;
+    margin-left: 25px;
+    margin-bottom: -10px;
+   
+ }
+ .teams{
+    margin-left: 20px;
+ }
+.top-image h1{
+ font-size: 18px;
+ padding: 5px 0px;
+}
+.top-image{
+    margin: 10px;
+}
+
+.image-wrapper img{
+    margin-bottom:0px;
+}
+.image-wrapper h1{
+    font-size: 20px;
+    width:240px;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+.image-wrapper span{
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+.rating{
+    width: 150px;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+.student-border{
+    margin-left: 20px;
+    margin-top: -140px;
 }
